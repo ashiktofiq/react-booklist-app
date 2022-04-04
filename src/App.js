@@ -94,7 +94,8 @@ export const App = () => {
                 </tbody>
               </table>
             </div>
-            
+            <button className='btn btn-danger btn-md'
+            onClick={()=>setbooks([])}>Remove All</button>
           </>}
           {books.length < 1 && <div>No books are added yet</div>}
         </div>
